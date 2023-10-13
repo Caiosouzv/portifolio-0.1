@@ -1,0 +1,570 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #D8D8D8;
+    padding-top: 6vh;
+    font-family:'Montserrat', sans-serif;
+    
+}
+
+body::-webkit-scrollbar {
+    width: 10px;              
+  }
+  
+  body::-webkit-scrollbar-track {
+    background: #a1a1a1;       
+  }
+  
+  body::-webkit-scrollbar-thumb {
+    background-color: #97794A;   
+    
+  }
+
+  ::selection { background: #97794A; color: #D8D8D8; }
+
+
+
+
+  /*  ________________________________inicio da parte INICIO_________________________________________*/
+
+#pagina01{
+    
+    width: 100%;
+    height: 90vh;
+    margin-top: 2vh;
+}
+
+.central{
+
+    width: 50%;
+    display: flex;
+}
+
+.central2{
+    width: 50%;
+    display: flex;
+}
+
+.social{
+    height: 90vh;
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    padding-top: 60vh;
+    margin-left: 10%;
+    
+}
+
+
+
+#instagram{
+    height: 4vh;
+    margin-bottom: 3vh;
+    fill: #755A31;
+    cursor: pointer;
+
+}
+
+#instagram:hover{
+    fill: #af3b27;
+    transition: .3s;
+    
+    
+}
+
+#linkedin{
+    height: 4vh;
+    margin-bottom: 3vh;
+    fill: #755A31;
+    cursor: pointer;
+
+}
+
+#linkedin:hover{
+    fill: #494175;
+    transition: .3s;
+    
+}
+
+#github{
+    height: 4vh;
+    fill: #755A31;
+    cursor: pointer;
+}
+
+#github:hover{
+    fill: #702583;
+    transition: .3s;
+    
+}
+
+.apresentacao{
+    
+    width: 60%;
+    padding-top: 10vh ;
+    margin-left: 5%;
+   
+
+}
+
+#ola{
+    color: #7D6033;
+    margin-bottom:0;
+    font-size: 25px;
+    margin-left: 49%;
+
+}
+
+#nome{
+    color: #5E4115;
+    font-size: 60px;
+    margin-left: 10%;
+}
+
+#Desenvolvedor{
+    font-size: 15px;
+    margin-left: 40%;
+
+}
+
+.apresentacao>button{
+    width: 45%;
+    height: 5vh;
+    border-radius: 20px;
+    border: solid 2px #5E4115;
+    background-color: transparent;
+    font-family:'Montserrat', sans-serif;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 5px;
+    font-weight: 600;
+    color: #5E4115;
+    fill: #5E4115;
+    margin-left: 55%;
+    cursor: pointer;
+
+}
+
+.apresentacao>button:hover{
+    border: solid 2px #916f3e;
+    box-shadow: 1px 1px 10px #dab27b;
+    color: #916f3e;
+    fill: #916f3e;
+    transition: .4s;
+    
+}
+
+.main_image{
+    margin-top: 5vh;
+}
+
+#persona_principal{
+    height: 87vh;
+}
+
+.bolinha1{
+    background-color: #D8D8D8;
+    border: solid 3px #373737;
+    border-radius: 50%;
+    height: 19px;
+    margin-bottom: 3vh;
+    z-index: 1;
+    cursor: pointer;
+    
+    
+
+}
+
+#assside{
+
+    padding-top: 20vh;
+}
+
+.main1{
+
+    width: 14%;
+    margin-left: 80%;
+}
+
+#linha1{
+    height: 25vh;
+    background-color: #373737;
+    width: 3px;
+    position: absolute;
+    top: 20vh;
+    left: 86%;
+    z-index: -10000;
+}
+
+#foot01{
+    width: 100%;
+    height: 10vh;
+    margin-top: 13vh;
+    display: flex;
+    justify-content: center;
+
+}
+
+
+
+
+
+
+  /*  ________________________________inicio da parte INICIAL_________________________________________*/
+
+
+
+
+
+
+
+
+
+  /*  ________________________________inicio da parte SOBRE_________________________________________*/
+
+
+header{
+    padding-left: 5%;
+    padding-right: 5%;
+    
+    
+}
+
+#kyo{
+    margin-right: 55%;
+    font-size: 30px;
+    font-weight: 400;
+    cursor: pointer;
+    color: #5E4115;
+  
+}
+
+ul > span{
+    color: #96784C;
+}
+
+.sun{
+    height: 3vh;
+    fill: #5E4115;
+    transform: scale(2vh);
+}
+
+.sun:hover{
+    fill: #8f6930;
+    transition:.2s; 
+    transform: scale(1.1);
+
+}
+
+ul{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    color: #5E4115;
+    font-size: 15px;
+    font-weight: 600;
+    
+}
+
+#quem{
+    color: #97794A;
+}
+
+li{
+    cursor: pointer;
+}
+
+li:hover{
+    color: #8f6930;
+    transition: .4s;
+
+}
+
+section{
+
+    width: 100%;
+    display: flex;
+    height: 40vh;
+    margin-top: 15vh;
+    
+}
+
+.texto{
+    
+    width: 80%;
+    padding-right: 12%;
+    padding-left: 10%;
+    color: #19340C;
+    
+}
+
+span{
+    color: #96784C;
+}
+
+p{
+    margin-bottom: 4vh;
+    font-weight: 600;
+    line-height: 4vh;
+    color: #1F1506;
+}
+
+
+
+h1{
+    margin-bottom: 4vh;
+    color: #5E4115;
+    font-size: 30px;
+}
+
+
+
+h4{
+    margin-bottom: 2vh;
+    color: #7D6033;
+    font-size: 16px;
+}
+
+
+
+footer{
+    
+    width: 100%;
+    height: 10vh;
+    margin-top: 22vh;
+    display: flex;
+    justify-content: center;
+}
+
+.down{
+    fill: #5E4115;
+    height: 4vh;
+    cursor: pointer;
+
+}
+
+aside{
+    width: 20%;
+    padding-top: 11vh;
+    height: 60vh;
+    position: relative;
+   
+}
+
+.main{
+    margin-left: 50%;
+    width: 7%;
+}
+
+.bolinha{
+
+    background-color: #D8D8D8;
+    border: solid 3px #373737;
+    border-radius: 50%;
+    height: 19px;
+    margin-bottom: 3vh;
+    z-index: 1;
+    cursor: pointer;
+
+}
+
+#cor{
+    background-color: #97794A;
+   
+
+}
+
+#linha{
+    height: 25vh;
+    background-color: #373737;
+    width: 3px;
+    position: absolute;
+    top: 11vh;
+    left: 53%;
+    z-index: -10000;
+}
+
+
+
+/*  ________________________________fim da parte SOBRE_________________________________________*/
+
+
+
+
+
+
+
+
+
+/*  ________________________________inicio da parte de CONTATO_________________________________________*/
+
+
+
+#Contato01{
+    width: 100%;
+    height: 90vh;
+    margin-top: 20vh;
+    padding-left: 5%;
+    padding-right: 5% ;
+    
+
+}
+
+#contatoleft{
+    background-color: #D8D2C8;
+    width: 35%;
+    margin-right: 6%;
+    box-shadow: 1px 1px 10px #432B06;
+    padding-left: 5%;
+    padding-top: 25vh ;
+
+}
+
+#contactrigth{
+    background-color: #5E4115;
+    width: 60%;
+    box-shadow: 1px 1px 10px #261B0A;
+    display: flex;
+    flex-direction: column;
+    padding-left: 7% ;
+    padding-top: 13vh;
+
+}
+
+#caio{
+    font-weight:400;
+    font-size: 25px;
+    margin-bottom: 1vh;
+    color: #1f5e02;
+    
+}
+
+#subtitulo{
+    font-size: 10px;
+    font-weight:600;
+    color: #1e4d09;
+    margin-bottom: 5vh;
+}
+
+.num_email{
+    font-size: 12px;
+    margin-bottom: 2px;
+    color: #1e4d09;
+
+}
+
+h5{
+    margin-top: 5vh;
+    font-size: 12px;
+    margin-bottom: 5vh;
+    color: #1e4d09;
+}
+
+a{
+    text-decoration: none;
+   
+}
+
+#icones{
+    margin-left: 12%;
+    
+}
+
+.icons{
+    height: 3vh ;
+    margin-right: 5%;
+    fill: #1a4109;
+    
+}
+
+#ou{
+    color: #0A1B02;
+}
+
+.top{
+    display: flex;
+    
+}
+
+.cima{
+    display: flex;
+    flex-direction: column;
+    margin-right: 20%;
+    
+}
+
+.cima>input{
+    border: none;
+    border-bottom: solid 2px white ;
+    background-color: transparent;
+    width: 155%;
+    margin-bottom: 4vh;
+    color: white;
+    padding: 5%;
+    font-weight: 400;
+}
+
+
+.Assunto{
+    border: none;
+    border-bottom: solid 2px white ;
+    background-color: transparent;
+    width: 88%;
+    margin-bottom: 4vh;
+    color: white;
+    padding: 1%;
+    font-weight: 400;
+
+
+}
+
+.msg{
+    border: solid 2px white ;
+    background-color: transparent;
+    width: 88%;
+    margin-top: 2vh;
+    height: 20vh;
+    color: white;
+    padding-top: 0;
+    padding: 1%;
+    font-weight: 400;
+
+
+}
+
+label{
+    color: white;
+    margin-bottom: 2vh;
+}
+
+#enviar{
+    width: 35%;
+    height: 6vh;
+    font-family:'Montserrat', sans-serif;
+    background-color: #dfe0df;
+    color: #58411F;
+    font-weight: 600;
+    border: none;
+    margin-top: 4vh;
+    box-shadow: 1px 1px 10px #3f2a0d;
+    cursor: pointer;
+    margin-left: 25%;
+}
+
+#enviar:hover{
+    box-shadow: 1px 1px 10px #ad7e37;
+    transform: scale(1.01);
+    transition: 0.6s;
+    color: #855917;
+
+
+}
+
+
+/*  ________________________________fim da parte de CONTATO_________________________________________*/
